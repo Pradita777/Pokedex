@@ -1,0 +1,14 @@
+# Dependencias
+node_modules/
+
+# Archivos de registro y errores
+logs/
+*.log
+npm-debug.log*
+
+# Archivos de configuración
+.env
+
+# Otros archivos generados durante el desarrollo
+.DS_Store
+dist/

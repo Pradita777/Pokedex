@@ -1,0 +1,22 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaraCastril1/Pokedex.git"
+  },
+  "author": "Andres Prada Rodriguez / Sara Maria Castrillon Rios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaraCastril1/Pokedex/issues"
+  },
+  "homepage": "https://github.com/SaraCastril1/Pokedex#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
