@@ -16,9 +16,13 @@ const get_all = (req, res) => {
 
 const get_pokenea = (req, res) => {
     const pokeneas_data = json_manager.read_json_file(DATA);
-    const randomPokenea = Math.floor(Math.random() * pokeneas_data.length);
-    console.log(randomPokenea);
-    console.log(pokeneas_data.length);
+    const random_pokenea = Math.floor(Math.random() * pokeneas_data.length);
+    console.log(random_pokenea);
+    if (pokeneas_data.error) {
+      res.send(pokeneas_data.error);
+    } else {
+      res.status(200).send(pokeneas_data[random_pokenea]);
+    }
 }
 
 module.exports = { get_all, get_pokenea };
