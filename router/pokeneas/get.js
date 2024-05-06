@@ -21,8 +21,23 @@ const get_pokenea = (req, res) => {
     if (pokeneas_data.error) {
       res.send(pokeneas_data.error);
     } else {
-      res.status(200).send(pokeneas_data[random_pokenea]);
+      const { id, nombre, altura, habilidad } = pokeneas_data[random_pokenea];
+      const trimmedData = { id, nombre, altura, habilidad };
+      res.status(200).send(trimmedData);
     }
 }
 
-module.exports = { get_all, get_pokenea };
+const get_quote = (req, res) => {
+  const pokeneas_data = json_manager.read_json_file(DATA);
+  const random_pokenea = Math.floor(Math.random() * pokeneas_data.length);
+  console.log(random_pokenea);
+  if (pokeneas_data.error) {
+    res.send(pokeneas_data.error);
+  } else {
+      const { imagen, frase_filosofica } = pokeneas_data[random_pokenea];
+      const trimmedData = { imagen, frase_filosofica };
+      res.status(200).send(trimmedData);
+  }
+}
+
+module.exports = { get_all, get_pokenea, get_quote };
