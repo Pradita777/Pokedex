@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pikachu",
+        "altura": "0.4 m",
+        "habilidad": "Electricidad estática",
+        "imagen": "pikachu.jpg",
+        "frase_filosofica": "La verdadera fuerza proviene de la amistad."
+    },
+    {
+        "id": 2,
+        "nombre": "Charmander",
+        "altura": "0.6 m",
+        "habilidad": "Llama",
+        "imagen": "charmander.jpg",
+        "frase_filosofica": "La pasión enciende el corazón."
+    },
+    {
+        "id": 3,
+        "nombre": "Squirtle",
+        "altura": "0.5 m",
+        "habilidad": "Torrente",
+        "imagen": "squirtle.jpg",
+        "frase_filosofica": "La fuerza del agua fluye con tranquilidad."
+    },
+    {
+        "id": 4,
+        "nombre": "Bulbasaur",
+        "altura": "0.7 m",
+        "habilidad": "Espesura",
+        "imagen": "bulbasaur.jpg",
+        "frase_filosofica": "La naturaleza es el equilibrio perfecto."
+    },
+    {
+        "id": 5,
+        "nombre": "Jigglypuff",
+        "altura": "0.5 m",
+        "habilidad": "Canto",
+        "imagen": "jigglypuff.jpg",
+        "frase_filosofica": "La melodía calma los corazones agitados."
+    },
+    {
+        "id": 6,
+        "nombre": "Mewtwo",
+        "altura": "2.0 m",
+        "habilidad": "Presión",
+        "imagen": "mewtwo.jpg",
+        "frase_filosofica": "El poder sin control es la verdadera amenaza."
+    },
+    {
+        "id": 7,
+        "nombre": "Snorlax",
+        "altura": "2.1 m",
+        "habilidad": "Inmunidad",
+        "imagen": "snorlax.jpg",
+        "frase_filosofica": "A veces, el descanso es la mejor estrategia."
+    },
+    {
+        "id": 8,
+        "nombre": "Eevee",
+        "altura": "0.3 m",
+        "habilidad": "Adaptable",
+        "imagen": "eevee.jpg",
+        "frase_filosofica": "La evolución es la clave de la supervivencia."
+    },
+    {
+        "id": 9,
+        "nombre": "Gengar",
+        "altura": "1.5 m",
+        "habilidad": "Levitación",
+        "imagen": "gengar.jpg",
+        "frase_filosofica": "La oscuridad es solo la ausencia de luz."
+    },
+    {
+        "id": 10,
+        "nombre": "Dragonite",
+        "altura": "2.2 m",
+        "habilidad": "Mar de nubes",
+        "imagen": "dragonite.jpg",
+        "frase_filosofica": "La fuerza exterior refleja la tranquilidad interior."
+    }
+]
