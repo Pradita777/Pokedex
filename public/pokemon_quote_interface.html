@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Quote</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .pokemon-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .pokemon-image {
+            max-width: 300px;
+            max-height: 300px;
+        }
+        .pokemon-quote {
+            font-size: 18px;
+        }
+        .container-id {
+            font-size: 12px;
+            color: gray;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="pokemon-container" id="container">
+        <p class="container-id" id="container-id"></p>
+        <img class="pokemon-image" id="pokemon-image" src="" alt="Pokémon Image">
+        <p class="pokemon-quote" id="pokemon-quote"></p>
+    </div>
+
+    <script>
+        function getRandomPokemonQuote() {
+            fetch('/api/randomPokenea/quote')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('pokemon-image').src = data.imagen;
+                document.getElementById('pokemon-quote').textContent = data.frase_filosofica;
+                document.getElementById('container-id').textContent = "Container ID: " + data.host; // Mostrar el ID del contenedor
+            })
+            .catch(error => console.error('Error fetching Pokémon quote:', error));
+        }
+
+        // Call the function initially to load a random Pokémon quote when the page loads
+        getRandomPokemonQuote();
+    </script>
+</body>
+</html>

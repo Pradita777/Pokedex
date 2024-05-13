@@ -4,7 +4,7 @@
         "nombre": "El Quincho",
         "altura": "1.65 m",
         "habilidad": "Transformardor disruptivo",
-        "imagen": "daniel_quintero.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneas1/Pokenea1.jpg",
         "frase_filosofica": "Tan metido en el embalse de Hidroituango, que hasta la ñonga le huele a pescado."
     },
     {
@@ -12,7 +12,7 @@
         "nombre": "El Patrón",
         "altura": "1.67 m",
         "habilidad": "El de la plata",
-        "imagen": "pablo_escobar.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneas1/Pokenea2pablo.jpg",
         "frase_filosofica": "Prefiero una tumba en Colombia que una celda en Estados Unidos."   
     },
     {
@@ -20,7 +20,7 @@
         "nombre": "Álvarorrupto",
         "altura": "1.67 m",
         "habilidad": "Persuación",
-        "imagen": "alvaro_uribe.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneas1/Pokenea3uribe.jpg",
         "frase_filosofica": "Aquí no estamos pa' quejarnos, estamos es pa' camellar"
     },
     {
@@ -28,7 +28,7 @@
         "nombre": "El Juancho",
         "altura": "1.67 m",
         "habilidad": "La Guitarra",
-        "imagen": "juanes.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneas1/Pokenea4juanes.jpg",
         "frase_filosofica": "A Dios le pido paz para los mios."
     },
     {
@@ -36,7 +36,7 @@
         "nombre": "Karolita",
         "altura": "1.60 m",
         "habilidad": "Ritmíca",
-        "imagen": "karolG.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneas1/Pokenea5karol.jpg",
         "frase_filosofica": "Si la vida nos da la espalda, ¡Hay que perrearle!"
     },
     {
@@ -44,7 +44,7 @@
         "nombre": "La vendedora de rosas",
         "altura": "1.50 m",
         "habilidad": "Vender rosas",
-        "imagen": "vendedora_de_rosas.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneas1/Pokenea6lady.png",
         "frase_filosofica": "En el barrio, el único plan B es 'beber' y 'bailar', ¿qué más vas a querer?"
     },
     {
@@ -52,7 +52,7 @@
         "nombre": "Suso",
         "altura": "1.58 m",
         "habilidad": "Humor",
-        "imagen": "dani_hoyos.jpg",
+        "imagen": "https://storage.googleapis.com/pokeneas1/Pokenea7suso.jpg",
         "frase_filosofica": "¡Me cuesta creer que al final, nos toque chapar canoa!"
     }
 ]

@@ -1,5 +1,6 @@
 const json_manager = require("../../utils/json_manager");
 const dotenv = require("dotenv");
+const os = require("os");
 dotenv.config();
 
 const { DATA } = process.env;
@@ -40,4 +41,18 @@ const get_quote = (req, res) => {
   }
 }
 
-module.exports = { get_all, get_pokenea, get_quote };
+const get_quote_and_image = (req, res) => {
+  const pokeneas_data = json_manager.read_json_file(DATA);
+  const random_pokenea = Math.floor(Math.random() * pokeneas_data.length);
+  console.log(random_pokenea);
+  if (pokeneas_data.error) {
+      res.send(pokeneas_data.error);
+  } else {
+      const { imagen, frase_filosofica } = pokeneas_data[random_pokenea];
+      const host = os.hostname();
+      const trimmedData = { imagen, frase_filosofica, host };
+      res.status(200).send(trimmedData);
+  }
+}
+
+module.exports = { get_all, get_pokenea, get_quote, get_quote_and_image};
