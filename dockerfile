@@ -1,6 +1,6 @@
 FROM node:20
 
-# Create app directory
+# Create an app directory
 WORKDIR /usr/src/app
 
 # Install app dependencies
